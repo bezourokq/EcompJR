@@ -1,0 +1,140 @@
+<!--
+
+	Feito por Odivio Caio Santos Matos
+
+	Utilizei algumas dicas do site freecodecamp, dos exercícios que resolvi e de alguns exemplos	da Internet.
+-->
+
+<script type="text/javascript">
+			<!--
+			    function toggle_visibility(id) {
+			       var e = document.getElementById(id);
+			       if(e.style.display == 'block')
+			          e.style.display = 'none';
+			       else
+			          e.style.display = 'block';
+			    }
+			//
+		</script>
+
+<style type="text/css">
+
+  .fonte{
+  	font-size:16px;
+  	text-align: center;
+  }
+
+  .caixa{
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .caixa-amarela {
+    background-color: yellow;
+    padding:10px;
+  }
+  
+  .caixa-vermelha {
+    background-color:red;
+    padding: 20px;
+  }
+
+  .caixa-verde {
+    background-color: green;
+    padding: 20px;
+  }
+
+  .caixa-rosa {
+    background-color: pink;
+    padding: 20px;
+  }
+
+  .caixa-preta {
+    background-color: black;
+    padding: 20px;
+  }
+
+body
+{
+	background-color:#white;
+}
+
+	#caixaVermelha{
+		top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+		background-color: rgba(0,0,0,0.7); display: none;
+	}
+	#caixaVerde{
+		top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+		background-color: rgba(0,0,0,0.7); display: none;
+	}
+	#caixaRosa{
+		top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+		background-color: rgba(0,0,0,0.7); display: none;
+	}
+	#caixaPreta{
+		top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+		background-color: rgba(0,0,0,0.7); display: none;
+	}
+	.caixa{
+		width: 5000px; margin: 0px auto; text-align: center;
+	}
+	.vermelho{
+		background-color: red; padding: 400px;
+	}
+	.verde{
+		background-color: green; padding: 400px;
+	}
+	.rosa{
+		background-color: pink; padding: 400px;
+	}
+	.preto{
+		background-color: black; padding: 400px;
+	}
+
+</style>
+
+<title>Meu Site</title>
+
+<h1>Caixas Coloridas</h1>
+
+<h5 class="caixa-amarela">Escolha uma cor:</h5>
+<div class="caixa-amarela">
+
+  <h5 class="caixa-vermelha"><a class="fonte" id="1" href=# onclick="toggle_visibility('caixaVermelha');">Vermelho</a></h5>
+
+    <div id="caixaVermelha">
+			<div class="caixa">
+				<div class="vermelho">
+				</div>
+			</div>
+		</div>
+
+  <h5 class="caixa-verde"><a id="2" class="fonte" href=# onclick="toggle_visibility('caixaVerde');">Verde</a></h5>
+
+  	<div id="caixaVerde">
+			<div class="caixa">
+				<div class="verde">
+				</div>
+			</div>
+		</div>
+
+  <h5 class="caixa-rosa"><a id="3" class="fonte" href=# onclick="toggle_visibility('caixaRosa');">Rosa</a></h5>
+
+  	<div id="caixaRosa">
+			<div class="caixa">
+				<div class="rosa">
+				</div>
+			</div>
+		</div>
+
+  <h5 class="caixa-preta"><a id="4" class="fonte" href=# onclick="toggle_visibility('caixaPreta');">Preto</a></h5>
+
+  	<div id="caixaPreta">
+			<div class="caixa">
+				<div class="preto">
+				</div>
+			</div>
+		</div>
+
+</div>
+
