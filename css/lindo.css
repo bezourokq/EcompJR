@@ -31,6 +31,14 @@
 		background-color:black;
 	}
 
+	#roda{
+		top:0;
+		left:0;
+		width:100%;
+		height:60px;
+		background-color:white;
+	}
+
 	#caixaVermelha{
 		background-image: url("imagens/arvore.jpg");
 		background-position: 100% 50%;
@@ -114,5 +122,6 @@
         margin-top:100px;
         font-family: arial, helvetica, serif;
 	}
+
 
 
